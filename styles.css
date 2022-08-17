@@ -1,0 +1,120 @@
+body, html {
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:dimgrey;
+    color: white;
+}
+
+/* used for animation index */ 
+#vanta {
+    z-index: 0;
+    position: absolute;
+    left:0;
+    right:0;
+    top: 0px;
+    width:100%;
+    height:100%;
+}
+
+body {
+    /* used for still background image index */ 
+    /* background-image: url(./images/punisherWallpaper.webp); */
+    background-size: cover;
+    
+}
+
+
+
+/* used for video index */ 
+video {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header {
+    margin-top: 0em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+
+#name {
+    position: relative;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color:darkgray;
+    padding: 0.3em 0.4em;
+    border: 3px solid white;
+}
+
+header > h1 {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 1em;
+    
+
+}
+
+header > figure > img {
+    width: 10em;
+    height: 10em;
+    border-radius: 10px;
+    border: 2px solid red;
+    box-shadow: white 0px 2px 8px 0px;
+
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 8px;
+
+}
+
+#titleHeart {
+    color:red;
+    text-align: center;
+}
+
+ul {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 2em;
+    max-width:480px;
+    
+}
+
+ul > li {
+    background-color: #fffa;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    border-radius: 10em;
+    padding: 1em;
+    margin: 1.4em 0;
+}
+
+ul > li > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
